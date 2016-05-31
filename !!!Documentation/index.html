@@ -1,0 +1,197 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>FotoHunter - Creative Modern Photographer HTML Template: Documentation</title>
+	
+	<meta name="author" content="annabalashova">
+	<meta name="copyright" content="annabalashova">
+	<meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+	<meta name="date" content="2014-02-13">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="css/prettify.css" type="text/css" media="screen, projection">
+	
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	<script src="js/prettify.js"></script>	
+	<script>document.createElement('section');var duration=450,easing='easeOutExpo';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+            <li><a href="#pages">HTML Pages</a></li>
+            <li><a href="#install">HTML Files &amp; Structure</a></li>
+			<li><a href="#general_settings">CSS Files</a></li>
+            <li><a href="#panel">JavaScript</a></li>
+            <li><a href="#form">E-Mail Form</a></li>
+		</ol>
+		<div id="documenter_copyright">Copyright annabalashova 2012<br></div>
+	</div>
+	<div id="documenter_content">
+		<section id="documenter_cover">
+			<h1>FotoHunter - Creative Modern Photographer HTML Template</h1>
+			<h2>Multipage Photographer Theme</h2><hr>
+			<ul>
+				<li>By: annabalashova</li>
+				<li><a href="http://themeforest.net/user/annabalashova">themeforest.net/user/annabalashova</a></li>
+			</ul>
+			<p>Thank you for purchasing my theme. If you still have some questions that you could not find in the scope of this help file, please contact me through email via my user page contact	 form <a href="http://themeforest.net/user/annabalashova/#from">here</a>. You can also follow me on Themeforest to keep track of all my future themes, that you might be interested in. Thank you very much! </p>
+		</section>
+		
+		<section id="pages">
+			<h3>Pages</h3><hr class="notop">
+			<p>Site consists of 9 pages <code>index.html</code>, <code>about.html</code>, <code>blog.html</code>, <code>blog_single.html</code>, <code>contact.html</code>, <code>work details<span>*</span></code>, <code>portfolio page<span>**</span></code>, <code>service.html</code>, <code>team.html</code></p>
+			<ul>
+				<li>
+					<code>work details<span>*</span></code> - you can choose one of 2 pages <code>single_work.html</code> or <code>fullscreen_work.html</code>
+				</li>
+				<li>
+					<code>portfolio page<span>**</span></code> - you can choose one of 4 pages <code>portfolio_four_column.html</code>, <code>portfolio_horizontal.html</code>, <code>portfolio_masonry.html</code> or <code>portfolio_three_column.html</code>
+				</li>
+			</ul>
+			<p>
+				<strong>To replace the <code>work details</code></strong><br>
+				You must replace the block <code>&lt;!-- PORTFOLIO WITH DETAILS --&gt;</code> on the same block of one of the pages <code>single_work.html</code> or <code>fullscreen_work.html</code><br><br>
+				<strong>To replace the <code>portfolio page</code></strong><br>
+				You must replace the block <code>&lt;!-- PORTFOLIO --&gt;</code> on the same block of one of the pages <code>portfolio_four_column.html</code>, <code>portfolio_horizontal.html</code>, <code>portfolio_masonry.html</code> or <code>portfolio_three_column.html</code><br><br>
+				<strong>To replace the logo</strong>
+				If you have image file with your logo your must replace this block <code>&lt;!--  LOGO  --&gt;</code>, <strong>example</strong><br>
+				<pre class="prettyprint lines">
+&lt;!--  LOGO  --&gt;
+&lt;a class="logo" href="index.html"&gt;
+  &lt;img src="url_for_your_logo.jpg" alt="company logo"&gt;
+&lt;/a&gt;
+&lt;!--  //LOGO  --&gt;</pre>
+			</p>
+		</section>
+
+		<section id="install">      
+			<h3>HTML Files & Structure</h3><hr class="notop">
+			<p>Site consists of 5 sections (6 sections features of some pages) <code>.left-menu</code>, <code>.right-content</code> its a main sections<br>
+			This section includes <code>.right-content</code> 3-4 sections <code>.home-page</code>, <code>.main-block</code>, <code>.portfolio-with-details</code>, <code>.right-images</code> or in blog <code>.right-images</code> replace on <code>.blog-right</code><br>
+			To hange the styles, colors, and other options in the site you can in <b>css/style.css</b> file.
+			
+			<pre class="prettyprint lines">
+&lt;div class="left-menu"&gt;
+    [LOGO, MENU BLOCK AND TWITTER]
+&lt;/div&gt;
+
+&lt;div class="right-content"&gt;
+    &lt;div class="flexslider home-page"&gt;
+        [TOP FULL SCREEN SLIDER]
+    &lt;/div&gt;
+    &lt;div class="main-block"&gt;
+        [CONTENT OR PORTFOLIO, ECT]
+    &lt;/div&gt;
+    &lt;div class="portfolio-with-details"&gt;
+        [BIG PORTFOLIO SLIDER OR PORTFOLIO DETAILS]
+    &lt;/div&gt;
+    [IF THIS IS BLOG PAGE]
+    &lt;div class="blog-right col-lg-3"&gt;
+        [BLOG NAVIGATION, TAGS, SEARCH, ECT]
+    &lt;/div&gt;
+    [IF THIS IS OTHER PAGE]
+    &lt;div class="right-images col-lg-3"&gt;
+        [SMALL IMAGES SLIDER]
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+			<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+			<ul>
+				<li><strong>Colors:</strong> you must add one of the class name: <code>blue</code>, <code>red</code>, <code>yellow</code>, <code>lightgreen</code>, <code>lightred</code>, <code>pink</code>, <code>purple</code>, <code>turquoise</code>, <code>green</code> to the <code>body</code>.;</li>
+				<li><strong>background:</strong> if you want white theme you can add class name <code>white</code> to the <code>body</code>;</li>
+				<li><strong>Fonts:</strong> replace the existing font assigned to the <code>body</code>;</li>
+			</ul>
+			
+		</section>
+      
+		<section id="general_settings">
+			<h3>CSS Files</h3>
+			<p>I'm using 16 CSS files in this theme.</p>
+			<ul>
+				<li><code>style.css</code> - Main stylesheet. This file also contains some general styling, such as anchor tag colors, font-sizes, etc.</li>
+				<li><code>secondary.page.style</code> - This file add some fix to secondary page like <code>about.html</code> or <code>team.html</code> .</li>
+				<li><code>bootstrap.min.css</code> - bootstrap styles</li>
+				<li><code>flexslider.css</code> - FlexSlider styles. Used in the blog.</li>
+				<li><code>fonts.css</code> - Fonts style. Use this file if you want to change fonts</li>
+				<li><code>font-awesome.min.css</code> - Icon style.</li>
+				<li><code>blue.css</code>, <code>red.css</code>, <code>yellow.css</code>, <code>lightgreen.css</code>, <code>lightred.css</code>, <code>pink.css</code>, <code>purple.css</code>, <code>turquoise.css</code>, <code>green.css</code> - Color style. Use one of this style for your theme</li>
+				<li><code>white.background.css</code> - Background style. Use this file for switch background color</li>
+			</ul>
+			
+			<p>Mind that these values might be overridden somewhere else in the file.</p>
+			<p><code>style.css</code> file contains all of the specific stylings for the page. The file is separated into sections using:</p>
+			
+<pre class="prettyprint lines">
+
+/*--------- NAME OF BLOCK -------------*/
+
+etc.
+</pre>
+
+			<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+
+			<p>All images are found in the <code>images</code>. If you want to replace the image, just copy the folder with the same name as the original file with identical proportions.</p>
+			
+		</section>
+
+
+		<section id="panel">
+			<h3>JavaScript</h3>
+			<p>Twelve Javascript files are used in this site.</p>
+			<ul>
+				<li><code>custom.script.js</code> - User configuration file scripts. Most of the animation in this site are carried out from the customs scripts. There are a few functions that you can look at.<br><br>
+				file contains all of the specific stylings for the page. The file is separated into sections using:</p>	
+<pre class="prettyprint lines">
+/*--------- NAME OF BLOCK -------------*/
+
+etc.
+</pre>
+<br>
+				</li>
+				<li><code>jquery.gridrotator.js</code> - gridrotator script. Used in the portfolio block for create grid.</li>
+				<li><code>jquery.flexslider-min.js</code> - FlexSlider script. Used in the home block.</li>
+				<li><code>jquery.mb.YTPlayer.js</code> - video player on slides in section <code>home</code>.</li>
+				<li><code>jquery.min.js</code> - jQuery 1.10.2.</li>
+				<li><code>jquery.scrollTo-min.js</code> - replacement for the standard to scroll.</li>
+				<li><code>jquery.parallax-1.1.3.js</code> - parallax for images.</li>
+				<li><code>jquery.countTo.js</code> - for calc animation.</li>
+				<li><code>masonry.pkgd.min.js</code> - masonry gallery.</li>
+				<li><code>modernizr.custom.js</code> - this script need for detect what the browser can support.</li>
+			</ul>
+		</section>
+		<section id="form">
+			<h1>E-Mail Form</h1>
+			<p>For use the booking form your need to change e-mail address in the mail.php file. You can open this file any text editor.</p>
+		</section>
+	</div>
+</body>
+</html>
